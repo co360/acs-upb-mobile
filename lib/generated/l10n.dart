@@ -1843,6 +1843,16 @@ class S {
     );
   }
 
+  /// `You will receive a mail confirmation if your request is approved.`
+  String get messageAnnouncedOnMail {
+    return Intl.message(
+      'You will receive a mail confirmation if your request is approved.',
+      name: 'messageAnnouncedOnMail',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Please check your email for account verification.`
   String get messageCheckEmailVerification {
     return Intl.message(
